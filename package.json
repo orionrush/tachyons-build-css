@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^8.1.0",
-    "css-mqpacker": "^6.0.2",
+    "node-css-mqpacker": "^8.0.1",
     "cssnano": "^3.10.0",
     "perfectionist": "^2.4.0",
     "postcss": "^6.0.19",
@@ -34,7 +34,7 @@
     "ava": "*",
     "postcss-color-function": "^4.0.1",
     "standard": "^11.0.0",
-    "tachyons-cli": "^1.2.0",
+    "tachyons-cli": "^1.3.2",
     "tachyons-floats": "^3.0.4"
   },
   "browserslist": [
