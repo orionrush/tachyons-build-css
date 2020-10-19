@@ -15,8 +15,8 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
+    "@hail2u/css-mqpacker": "github:hail2u/node-css-mqpacker",
     "autoprefixer": "^8.1.0",
-    "node-css-mqpacker": "^8.0.1",
     "cssnano": "^3.10.0",
     "perfectionist": "^2.4.0",
     "postcss": "^6.0.19",
