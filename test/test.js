@@ -6,7 +6,7 @@ const tachyonsBuildCss = require('../')
 const { getPlugins } = require('../')
 
 const input = fs.readFileSync('test/fixtures/input.css', 'utf8')
-const inputColorFunction = fs.readFileSync('test/fixtures/input_color_function.css', 'utf8')
+// const inputColorFunction = fs.readFileSync('test/fixtures/input_color_function.css', 'utf8')
 
 test('processes source code', async t => {
   const result = await tachyonsBuildCss(input)
@@ -45,3 +45,5 @@ test('getPlugins returns array of plugins', t => {
   t.true(Array.isArray(plugins), 'returns an array')
   t.true(plugins.every(plugin => typeof plugin === 'function'), 'all plugins are functions')
 })
+
+test.todo('Disabled const inputColorFunction, write test for color functions')
