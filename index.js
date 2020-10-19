@@ -2,7 +2,7 @@
 
 const postcss = require('postcss')
 const cssnano = require('cssnano')
-const queries = require('node-npcss-mqpacker')
+const queries = require('@hail2u/css-mqpacker')
 const perfect = require('perfectionist')
 const prefixer = require('autoprefixer')
 const atImport = require('postcss-import')
